@@ -1,4 +1,7 @@
-*{}
+*{ 
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -6,17 +9,50 @@ h1{
     font-size: 50px;
 
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .name-highlite{
     color: orange;
 }
 .half-width{
     width: 40%;
+    padding-top: 40px;
     float: left;
     margin-left:5%;
     padding-left: 2%;
 }
 .half-width img{
     width: 100%;
-   
+       
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button {
+    text-decoration: none;
+    background: rgb(255,194,176);
+    background: linear-gradient(90deg, rgba(255,194,176,1) 0%, rgba(255,95,77,1) 100%);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 700px;
+}
+.button:hover{
+    color: black;
+    transition: 0.5s;
+}
+.middle-banner{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
     
 }
